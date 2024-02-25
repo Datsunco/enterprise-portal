@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from '../components/custom/Header';
 
 const DashBoardPage = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header status={"dashboard"}/>
+            <div className='ml-[80px]'>
+                Dashboard
+            </div>
+        </>
     );
 };
 

@@ -1,50 +1,8 @@
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter} from '@/components/ui/card';
-import { Bar, BarChart, ResponsiveContainer } from "recharts"
 import { MinusIcon, PlusIcon } from "@radix-ui/react-icons"
 import { Button } from "@/components/ui/button"
 
-const data = [
-    {
-      goal: 400,
-    },
-    {
-      goal: 300,
-    },
-    {
-      goal: 200,
-    },
-    {
-      goal: 300,
-    },
-    {
-      goal: 200,
-    },
-    {
-      goal: 278,
-    },
-    {
-      goal: 189,
-    },
-    {
-      goal: 239,
-    },
-    {
-      goal: 300,
-    },
-    {
-      goal: 200,
-    },
-    {
-      goal: 278,
-    },
-    {
-      goal: 189,
-    },
-    {
-      goal: 349,
-    },
-  ]
 
 const SalaryCard = () => {
     const [goal, setGoal] = React.useState(350)

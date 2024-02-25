@@ -8,6 +8,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
+import Header from '../components/custom/Header';
 
 const invoices = [
     {
@@ -56,7 +57,9 @@ const invoices = [
 
 export function TablePage() {
     return (
-        <Table className="w-[500px]">
+        <>
+        <Header  status={"table"}/>
+        <Table className="w-[500px] ml-[100px] static z-0">
             <TableCaption>A list of your recent invoices.</TableCaption>
             <TableHeader>
                 <TableRow>
@@ -83,5 +86,6 @@ export function TablePage() {
                 </TableRow>
             </TableFooter>
         </Table>
+        </>
     )
 }

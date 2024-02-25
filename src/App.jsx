@@ -7,7 +7,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header />
+      {/* <Header /> */}
       <AppRouter />
     </BrowserRouter>
   )

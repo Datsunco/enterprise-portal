@@ -1,4 +1,5 @@
 import CreatePage from "./pages/CreatePage"
+import DashBoardPage from "./pages/DashBoardPage"
 import { TablePage } from "./pages/TablePage"
 
 export const publicRoutes = [
@@ -10,6 +11,9 @@ export const publicRoutes = [
         path: '/table',
         Component: TablePage
     },
-    
+    {
+        path: '/dash',
+        Component: DashBoardPage
+    },
     
 ]
