@@ -32,11 +32,11 @@ const AddressCard = () => {
                         disabled={false}
                         className={cn(
                             "w-[240px] justify-start text-left font-normal",
-                            // !date && "text-muted-foreground"
+                            !date && "text-muted-foreground"
                         )}
                         placeholder={'Введите адрес'}
-                        onChange={(e) => setCorrectDate(e.target.value)}
-                        value={date ? date : date}
+                        onChange={(e) => setDate(e.target.value)}
+                        value={date}
                     >
                     </Input>
 
