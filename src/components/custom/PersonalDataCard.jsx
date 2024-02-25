@@ -22,7 +22,7 @@ const PersonalDataCard = () => {
                                 <Input id="name" placeholder="Антон" />
                             </div>
                             <div className="flex flex-col space-y-1.5">
-                                <Label htmlFor="name">Фамилия</Label>
+                                <Label htmlFor="surname">Фамилия</Label>
                                 <Input id="name" placeholder="Антон" />
                             </div>
                             <div className="flex flex-col space-y-1.5">

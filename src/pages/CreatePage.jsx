@@ -5,6 +5,8 @@ import { EducationCard } from '../components/custom/EducationCard';
 import WorkScheduleCard from '../components/custom/WorkScheduleCard';
 import ImageDownloadCard from '../components/custom/ImageDownloadCard';
 import SalaryCard from '../components/custom/SalaryCard';
+import ContactsCard from '../components/custom/ContactsCard';
+import AddressCard from '../components/custom/AddressCard';
 
 
 const CreatePage = () => {
@@ -15,12 +17,15 @@ const CreatePage = () => {
                 {/* <SalaryCard/> */}
             </div>
             <div className='flex flex-col gap-[20px]'>
-            <DatePickerCard />
+                <DatePickerCard />
                 <EducationCard />
             </div>
-            
-            <WorkScheduleCard />
-            <ImageDownloadCard/>
+            <div className='flex flex-col gap-[20px]'>
+                <AddressCard/>
+                <ContactsCard />
+            </div>
+
+            <ImageDownloadCard />
         </div>
     );
 };
