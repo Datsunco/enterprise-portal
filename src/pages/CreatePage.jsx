@@ -11,16 +11,19 @@ import AddressCard from '../components/custom/AddressCard';
 
 const CreatePage = () => {
     return (
-        <div className='padding-[40px] flex gap-[20px]' style={{ padding: "40px" }}>
+        //md:grids-col-2 grid md:gap-4 lg:grid-cols-10 xl:grid-cols-11 xl:gap-4
+        <div className='padding-[40px] flex gap-[20px] ' style={{ padding: "40px" }}> 
             <div className='flex flex-col gap-[20px]'>
                 <PersonalDataCard />
                 {/* <SalaryCard/> */}
             </div>
+            {/* space-y-4 lg:col-span-4 xl:col-span-6 xl:space-y-4 */}
             <div className='flex flex-col gap-[20px]'>
                 <DatePickerCard />
                 <EducationCard />
             </div>
-            <div className='flex flex-col gap-[20px]'>
+            {/* space-y-4 lg:col-span-6 xl:col-span-5 xl:space-y-4 */}
+            <div className='flex flex-col  gap-[20px]'>
                 <AddressCard/>
                 <ContactsCard />
             </div>
