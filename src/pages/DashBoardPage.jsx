@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../components/custom/Header';
 import SalaryBarChart from '../components/custom/salaryChart';
-import Example from '../components/custom/testChart';
 
 const DashBoardPage = () => {
     return (
@@ -12,7 +11,6 @@ const DashBoardPage = () => {
                 <SalaryBarChart/>
                 <SalaryBarChart/>
                 <SalaryBarChart/>
-                <Example/>
             </div>
         </>
     );

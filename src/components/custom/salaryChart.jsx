@@ -9,7 +9,7 @@ const data2 = [
     { salary: '50000', count: 50 },
     { salary: '60000', count: 80 },
     { salary: '70000', count: 65 },
-    // ... другие данные
+
 ];
 
 const CustomTooltip = ({ active, payload }) => {
