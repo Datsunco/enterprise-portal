@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent} from '@/components/ui/card';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PolarGrid } from 'recharts';
+import { LineChart, Line, Tooltip} from 'recharts';
 
 
 const data2 = [

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/custom/Header';
 import SalaryBarChart from '../components/custom/salaryChart';
+import Schedule from '../components/custom/ScheduleChart';
 
 const DashBoardPage = () => {
     return (
@@ -11,6 +12,7 @@ const DashBoardPage = () => {
                 <SalaryBarChart/>
                 <SalaryBarChart/>
                 <SalaryBarChart/>
+                <Schedule/>
             </div>
         </>
     );
