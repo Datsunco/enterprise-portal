@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import counterSlice from './slicers/tmpSlice'
+import personalDataReducer from './slicers/personalData'
 
 export const store = configureStore({
   reducer: {
-    counterSlice
+    personalData: personalDataReducer
 },
 })

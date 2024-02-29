@@ -17,9 +17,12 @@ import {
     ToggleGroupItem,
 } from "@/components/ui/toggle-group"
 import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { decrement, increment } from '../../store/slicers/tmpSlice';
 
 const Header = ({status}) => {
     const navigate = useNavigate()
+    const dispatch = useDispatch();
 
     const onTableClick = () => {
         navigate('/table')
